@@ -9,3 +9,6 @@ C:\Users\jaskirat\Downloads\Console_WebAPI_HttpClient\Console_WebAPI_HttpClient\
 C:\Users\jaskirat\Downloads\Console_WebAPI_HttpClient\Console_WebAPI_HttpClient\bin\Debug\Console_WebAPI_HttpClient.pdb
 C:\Users\jaskirat\Downloads\Console_WebAPI_HttpClient\Console_WebAPI_HttpClient\obj\Debug\Console_WebAPI_HttpClient.exe
 C:\Users\jaskirat\Downloads\Console_WebAPI_HttpClient\Console_WebAPI_HttpClient\obj\Debug\Console_WebAPI_HttpClient.pdb
+C:\Users\jaskirat\Downloads\WebAPIandConsoleApp\Console_WebAPI_HttpClient\bin\Debug\Console_WebAPI_HttpClient.exe.config
+C:\Users\jaskirat\Downloads\WebAPIandConsoleApp\Console_WebAPI_HttpClient\obj\Debug\Console_WebAPI_HttpClient.exe
+C:\Users\jaskirat\Downloads\WebAPIandConsoleApp\Console_WebAPI_HttpClient\obj\Debug\Console_WebAPI_HttpClient.pdb
