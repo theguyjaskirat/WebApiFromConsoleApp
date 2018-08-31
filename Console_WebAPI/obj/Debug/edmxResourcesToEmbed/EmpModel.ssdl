@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="EmpModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="EmpModelStoreContainer">
+    <EntitySet Name="Dept" EntityType="EmpModel.Store.Dept" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Emp" EntityType="EmpModel.Store.Emp" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="Dept">
+    <Key>
+      <PropertyRef Name="DeptID" />
+    </Key>
+    <Property Name="DeptID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="DeptName" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Emp">
+    <Key>
+      <PropertyRef Name="Empid" />
+    </Key>
+    <Property Name="Empid" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="EmpName" Type="nvarchar" MaxLength="50" />
+    <Property Name="PhoneNo" Type="int" />
+    <Property Name="DeptID" Type="int" />
+    <Property Name="Salary" Type="int" />
+    <Property Name="status" Type="varchar" MaxLength="50" />
+  </EntityType>
+</Schema>
